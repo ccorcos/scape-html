@@ -11,4 +11,5 @@ cp README.md build
 cp package.json build
 
 cd build
-npm publish
+npm publish --access public
+
