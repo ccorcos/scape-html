@@ -1,0 +1,27 @@
+{
+	"name": "@ccorcos/scrape-html",
+	"version": "0.0.1",
+	"description": "Scrape html using puppeteer",
+	"repository": {
+		"url": "https://github.com/ccorcos/scrape-html"
+	},
+	"main": "scapeHtml.js",
+	"bin": "cli.js",
+	"scripts": {
+		"clean": "rm -rf build",
+		"build": "tsc",
+		"typecheck": "tsc --noEmit",
+		"release": "./release.sh"
+	},
+	"keywords": [],
+	"author": "Chet Corcos <ccorcos@gmail.com>",
+	"license": "MIT",
+	"devDependencies": {
+		"@types/node": "^20.9.1",
+		"tsx": "^4.1.2",
+		"typescript": "^5.2.2"
+	},
+	"dependencies": {
+		"puppeteer": "^22.12.1"
+	}
+}
