@@ -17,7 +17,7 @@ export async function scrapeHtml(
 		await sleep(args.timeout ?? 10)
 
 		// Wait again for network to be idle after timeout
-		await page.waitForNetworkIdle()
+		// await page.waitForNetworkIdle()
 
 		// Get the HTML content of the page
 		const html = await page.content()
