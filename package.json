@@ -1,6 +1,6 @@
 {
 	"name": "@ccorcos/scrape-html",
-	"version": "0.0.4",
+	"version": "0.0.5",
 	"description": "Scrape html using puppeteer",
 	"repository": {
 		"url": "https://github.com/ccorcos/scrape-html"
